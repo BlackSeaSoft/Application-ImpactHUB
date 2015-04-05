@@ -37,7 +37,7 @@
 			if(preg_match_all($pattern, $t_StartDate)) return $t_StartDate;
 			else throw new Exception('Неправильный формат даты. Дата в формате YYYY-MM-DD: 2015-03-15');
 		}
-		else return false;
+		else return 0;
 	}
 	
 	function getEndDate()
@@ -48,7 +48,7 @@
 			$t_lastDate = $_GET['end_date'];
 			return $t_lastDate;
 		}
-		else return false;
+		else return 0;
 	}
 	
 	function db_result_to_array($result)
