@@ -4,7 +4,7 @@
 	{
 		$host = 'mysql.hostinger.ru';
 		$user = 'u568080489_admin';
-		$password = 'qwerty123';
+		$password = 'qwerty123456';
 		$bd = 'u568080489_mybd';
 		
 		
